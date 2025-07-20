@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 .poppins-bold {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
+  font-size: 28px;
   font-style: normal;
 }
 
@@ -13,10 +14,25 @@
   font-style: normal;
 }
 
+.inter-regular {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-size: 24px;
+  font-style: normal;
+}
 
+.inter-bold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-size: 14;
+  font-style: normal;
+}
 
-
-
+.inter-bold{
+    color: rgba(120, 120, 133, 1);
+}
 
 
 
@@ -106,12 +122,33 @@
 
 
 
+/* card section */
 
+.popular-container{
+    width: 330px;
+    height: 470px;
+    border: 2px solid black;
+    
+}
 
+.card{
+    margin: 10px;
+}
 
+.card-title{
+    font-family: poppins-bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
+.price-title{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
 
-
+.price-paragraph{
+    margin-top: 10px;
+}
 
 
 
