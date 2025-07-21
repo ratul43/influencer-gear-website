@@ -31,10 +31,12 @@
 }
 
 .inter-bold{
-    color: rgba(120, 120, 133, 1);
+    color: rgb(255, 255, 255);
 }
 
-
+body{
+    background-color: #e6e4e4ad;
+}
 
 
 
@@ -124,19 +126,37 @@
 
 /* card section */
 
+.collection{
+    justify-items: center;
+    margin: 90px;
+}
+
+
+
 .popular-container{
-    width: 330px;
-    height: 470px;
-    border: 2px solid black;
+    width: 1040px;
+    height: 1660px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
     
+}
+
+.card-container{
+   background-color: #FFFFFF;
+   width: 350px;
+   height: 500px;
+   justify-items: center;
+   border-radius: 10px;
 }
 
 .card{
     margin: 10px;
+    height: 500px;
 }
 
 .card-title{
-    font-family: poppins-bold;
     margin-top: 10px;
     margin-bottom: 0px;
 }
@@ -148,6 +168,7 @@
 
 .price-paragraph{
     margin-top: 10px;
+    color: rgba(120, 120, 133, 1);
 }
 
 
