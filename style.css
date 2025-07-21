@@ -171,12 +171,38 @@ body{
     color: rgba(120, 120, 133, 1);
 }
 
+.pagination{
+    position: relative;
+    left: 500px;
+    color: #E02C6D;
+}
 
+/* featured section  */
 
+.featured-container{
+    margin: 0px auto;
+    width: 1110px;
+    height: 270px;
+    display: flex;
+    gap: 90px;
+    margin-bottom: 90px;
+    justify-content: center;
+}
 
+.feature-btn{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #E02C6D;
+    color: white;
+    font-weight: bold;
+    font-family: "Poppins", sans-serif;
 
+}
 
-
+.feature-title{
+    margin-bottom: 16px;
+}
 
 
 
