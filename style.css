@@ -303,9 +303,25 @@ body{
     width: 70%;
 }
 
+/* collection section  */
 
+.collection{
+    margin: 0px;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.popular-container{
+    width: 100%;
+    margin: 0px;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
 
+.pagination{
+    left: 100px;
+    top: 3150px; 
+}
 
 
 
