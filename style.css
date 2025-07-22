@@ -231,8 +231,14 @@ body{
 
 .footer-container{
     background-color: rgb(12, 11, 11);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
     
 }
+
 
 .footer-title{
     color: #FFFFFF;
@@ -245,11 +251,6 @@ body{
     gap: 10px;
 }
 
-.footer-container{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 10px;
-}
 
 .icon-border{
     background-color: #21213b;
@@ -266,7 +267,12 @@ body{
     display: none;
 }
 
-
+.footer-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -342,6 +348,7 @@ body{
     margin-right: auto;
     justify-items: center;
     gap: 30px;
+    height: 100%;
 }
 
 .feature-title-container{
@@ -361,6 +368,13 @@ body{
     width: 80%;
     justify-self: center;
     margin-bottom: 50px;
+}
+
+/* footer section  */
+
+.footer-container{
+    width: 100%;
+    margin: 0px auto;
 }
 
 
