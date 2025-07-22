@@ -286,6 +286,30 @@ body{
     width: 90%;
 }
 
+/* partnership section */
+.partnership-container{
+    width: 80%;
+    margin: 0 2%;
+    padding: 40px;
+    padding-top: 0px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: flex-start;
+    gap: 0px;
+    row-gap: 10px;
+    
+}
+
+.partnership-container img{
+    width: 70%;
+}
+
+
+
+
+
+
+
 
 }
 
